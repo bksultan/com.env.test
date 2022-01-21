@@ -1,7 +1,5 @@
 package settings;
 
-import org.junit.Test;
-
 import java.io.IOException;
 import java.util.Properties;
 

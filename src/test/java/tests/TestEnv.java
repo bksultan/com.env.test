@@ -12,4 +12,9 @@ public class TestEnv {
     public void test1() throws IOException {
         Assert.assertEquals("5", getSystemProperties("env"));
     }
+
+    @Test
+    public void test2() {
+        Assert.assertEquals("6", "6");
+    }
 }
